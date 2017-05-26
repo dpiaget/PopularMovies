@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Popular Movies</string>
+    <string name="action_sort">Search movies</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_share">Share</string>
+
+    <string name="title">Title</string>
+    <string name="vote">vote</string>
+    <string name="overview">overview</string>
+    <string name="title_text">Title</string>
+    <string name="year">year</string>
+    <string name="length">length</string>
+
+    <string name="title_activity_detail">MovieDetail</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Key name for sorting in SharedPreferences [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_key" translatable="false">sort</string>
+
+    <!-- Label for the sort preference [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_label">Sorting Movies by</string>
+
+    <!-- Label for sorting option as most popular movies preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_popular">Most populars</string>
+
+    <!-- Label for sorting option as highest rated movies preference [CHAR LIMIT=25] -->
+    <string name="pref_sort_label_rating">Highest rated</string>
+
+    <!-- Value in SharedPreferences for most popular movies [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_popular" translatable="false">popular</string>
+
+    <!-- Value in SharedPreferences for highest rated movies [CHAR LIMIT=NONE] -->
+    <string name="pref_sort_rating" translatable="false">top_rated</string>
+
+</resources>
