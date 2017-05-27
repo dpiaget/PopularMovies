@@ -196,7 +196,8 @@ public class MovieFragment extends Fragment {
             // Will contain the raw JSON response as a string.
             String movieJsonStr;
 
-            String api_key = "9b0c4ee2ea7ab067ce9011075192de12";
+            // insert your own api key 
+            String api_key= "your_own_api_key";
 
             try {
                 // Construct the URL for the OpenWeatherMap query
